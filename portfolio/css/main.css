@@ -1,0 +1,164 @@
+@import url('https://fonts.cdnfonts.com/css/bebas-neue');
+ 
+:root {
+    --grad-1: rgb(65,81,146);
+    --grad-2: rgb(73,153,105);
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont,"Segoe UI","Roboto", 
+    "Oxygen","Ubuntu","Helvetica Neue", "Bebas Neue", Arial, sans-serif;
+    background-color: #1d1d20
+ }
+
+ p  {
+    color: rgba(255, 255, 255, 0.70);
+ }
+
+ h1, h2, h3 {
+    color: rgba(255, 255, 255, 0.95);
+ }
+
+
+ .navbar_links h1:hover {
+    color: white;
+    text-decoration: underline;
+ }
+
+ h1, h2, h3 {
+    font-family: 'Bebas Neue', sans-serif;
+ }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar_links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.navbar_links h1 {
+    padding: 1.5rem;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.welcome h1 {
+    font-size: 82px;
+}
+
+
+.about_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.about_heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+}
+
+.about_heading h2{
+    font-size: 40px;
+}
+
+.about_text {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10rem;
+    margin-bottom: 10rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_to_know h2{
+    text-align: center;
+}
+
+.skill_container h2 {
+    text-align: center;
+}
+
+
+
+.skill {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    background: #712dc5;
+    border-radius: 5px;
+    color: white;
+}
+
+.welcome-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-info p {
+    font-size: 2rem;
+}
+
+/* Change color of each text in sphere on hover   */
+.tagcloud--item:hover {
+  color: #CAA1FC ;
+}
+
+.portfolio_container {
+    padding: 1rem;
+}
+
+.portfolio_list {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem 2.5rem;
+    padding: 2rem 0rem 3rem 0rem;
+
+}
+.portfolio_work, .portfolio_img {
+    display: grid;
+    text-align: center;
+    place-self: center;
+}
+
+
+.portfolio_img {
+    max-width: 25rem;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+.contact_me {
+    padding: 1rem
+}
+
+.contact_me h1, p {
+    text-align: center;
+}
+.contact_me_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
